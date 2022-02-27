@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123282B7266342C700CDEB81 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123282B6266342C700CDEB81 /* Dijkstra.swift */; };
+		1259B00F266C8AD6004099FB /* jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1259B00E266C8AD6004099FB /* jump.swift */; };
+		127AB29A26627C3100F3CE9B /* SMSROUTEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127AB29926627C3100F3CE9B /* SMSROUTEApp.swift */; };
+		127AB29C26627C3100F3CE9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127AB29B26627C3100F3CE9B /* ContentView.swift */; };
+		127AB29E26627C3500F3CE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127AB29D26627C3500F3CE9B /* Assets.xcassets */; };
+		127AB2A126627C3500F3CE9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127AB2A026627C3500F3CE9B /* Preview Assets.xcassets */; };
+		127AB2AC26627C3500F3CE9B /* SMSROUTETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127AB2AB26627C3500F3CE9B /* SMSROUTETests.swift */; };
+		127AB2B726627C3500F3CE9B /* SMSROUTEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127AB2B626627C3500F3CE9B /* SMSROUTEUITests.swift */; };
+		127AB2C826627E9900F3CE9B /* pointcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127AB2C726627E9900F3CE9B /* pointcard.swift */; };
+		127AB2D02662890200F3CE9B /* hscroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127AB2CF2662890200F3CE9B /* hscroll.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		127AB2A826627C3500F3CE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127AB28E26627C3100F3CE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 127AB29526627C3100F3CE9B;
+			remoteInfo = SMSROUTE;
+		};
+		127AB2B326627C3500F3CE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127AB28E26627C3100F3CE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 127AB29526627C3100F3CE9B;
+			remoteInfo = SMSROUTE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		123282B6266342C700CDEB81 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
+		1259B00E266C8AD6004099FB /* jump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jump.swift; sourceTree = "<group>"; };
+		127AB29626627C3100F3CE9B /* SMSROUTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSROUTE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		127AB29926627C3100F3CE9B /* SMSROUTEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSROUTEApp.swift; sourceTree = "<group>"; };
+		127AB29B26627C3100F3CE9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		127AB29D26627C3500F3CE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		127AB2A026627C3500F3CE9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		127AB2A226627C3500F3CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127AB2A726627C3500F3CE9B /* SMSROUTETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSROUTETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		127AB2AB26627C3500F3CE9B /* SMSROUTETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSROUTETests.swift; sourceTree = "<group>"; };
+		127AB2AD26627C3500F3CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127AB2B226627C3500F3CE9B /* SMSROUTEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSROUTEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		127AB2B626627C3500F3CE9B /* SMSROUTEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSROUTEUITests.swift; sourceTree = "<group>"; };
+		127AB2B826627C3500F3CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127AB2C726627E9900F3CE9B /* pointcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointcard.swift; sourceTree = "<group>"; };
+		127AB2CF2662890200F3CE9B /* hscroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hscroll.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		127AB29326627C3100F3CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127AB2A426627C3500F3CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127AB2AF26627C3500F3CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		127AB28D26627C3100F3CE9B = {
+			isa = PBXGroup;
+			children = (
+				127AB29826627C3100F3CE9B /* SMSROUTE */,
+				127AB2AA26627C3500F3CE9B /* SMSROUTETests */,
+				127AB2B526627C3500F3CE9B /* SMSROUTEUITests */,
+				127AB29726627C3100F3CE9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		127AB29726627C3100F3CE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				127AB29626627C3100F3CE9B /* SMSROUTE.app */,
+				127AB2A726627C3500F3CE9B /* SMSROUTETests.xctest */,
+				127AB2B226627C3500F3CE9B /* SMSROUTEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		127AB29826627C3100F3CE9B /* SMSROUTE */ = {
+			isa = PBXGroup;
+			children = (
+				129C7348266B868700795770 /* instant */,
+				127AB29926627C3100F3CE9B /* SMSROUTEApp.swift */,
+				127AB29B26627C3100F3CE9B /* ContentView.swift */,
+				123282B6266342C700CDEB81 /* Dijkstra.swift */,
+				127AB29D26627C3500F3CE9B /* Assets.xcassets */,
+				127AB2A226627C3500F3CE9B /* Info.plist */,
+				127AB29F26627C3500F3CE9B /* Preview Content */,
+			);
+			path = SMSROUTE;
+			sourceTree = "<group>";
+		};
+		127AB29F26627C3500F3CE9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				127AB2A026627C3500F3CE9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		127AB2AA26627C3500F3CE9B /* SMSROUTETests */ = {
+			isa = PBXGroup;
+			children = (
+				127AB2AB26627C3500F3CE9B /* SMSROUTETests.swift */,
+				127AB2AD26627C3500F3CE9B /* Info.plist */,
+			);
+			path = SMSROUTETests;
+			sourceTree = "<group>";
+		};
+		127AB2B526627C3500F3CE9B /* SMSROUTEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				127AB2B626627C3500F3CE9B /* SMSROUTEUITests.swift */,
+				127AB2B826627C3500F3CE9B /* Info.plist */,
+			);
+			path = SMSROUTEUITests;
+			sourceTree = "<group>";
+		};
+		129C7348266B868700795770 /* instant */ = {
+			isa = PBXGroup;
+			children = (
+				127AB2C726627E9900F3CE9B /* pointcard.swift */,
+				127AB2CF2662890200F3CE9B /* hscroll.swift */,
+				1259B00E266C8AD6004099FB /* jump.swift */,
+			);
+			path = instant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		127AB29526627C3100F3CE9B /* SMSROUTE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127AB2BB26627C3500F3CE9B /* Build configuration list for PBXNativeTarget "SMSROUTE" */;
+			buildPhases = (
+				127AB29226627C3100F3CE9B /* Sources */,
+				127AB29326627C3100F3CE9B /* Frameworks */,
+				127AB29426627C3100F3CE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSROUTE;
+			productName = SMSROUTE;
+			productReference = 127AB29626627C3100F3CE9B /* SMSROUTE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		127AB2A626627C3500F3CE9B /* SMSROUTETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127AB2BE26627C3500F3CE9B /* Build configuration list for PBXNativeTarget "SMSROUTETests" */;
+			buildPhases = (
+				127AB2A326627C3500F3CE9B /* Sources */,
+				127AB2A426627C3500F3CE9B /* Frameworks */,
+				127AB2A526627C3500F3CE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				127AB2A926627C3500F3CE9B /* PBXTargetDependency */,
+			);
+			name = SMSROUTETests;
+			productName = SMSROUTETests;
+			productReference = 127AB2A726627C3500F3CE9B /* SMSROUTETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		127AB2B126627C3500F3CE9B /* SMSROUTEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127AB2C126627C3500F3CE9B /* Build configuration list for PBXNativeTarget "SMSROUTEUITests" */;
+			buildPhases = (
+				127AB2AE26627C3500F3CE9B /* Sources */,
+				127AB2AF26627C3500F3CE9B /* Frameworks */,
+				127AB2B026627C3500F3CE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				127AB2B426627C3500F3CE9B /* PBXTargetDependency */,
+			);
+			name = SMSROUTEUITests;
+			productName = SMSROUTEUITests;
+			productReference = 127AB2B226627C3500F3CE9B /* SMSROUTEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		127AB28E26627C3100F3CE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					127AB29526627C3100F3CE9B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					127AB2A626627C3500F3CE9B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 127AB29526627C3100F3CE9B;
+					};
+					127AB2B126627C3500F3CE9B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 127AB29526627C3100F3CE9B;
+					};
+				};
+			};
+			buildConfigurationList = 127AB29126627C3100F3CE9B /* Build configuration list for PBXProject "SMSROUTE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 127AB28D26627C3100F3CE9B;
+			productRefGroup = 127AB29726627C3100F3CE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				127AB29526627C3100F3CE9B /* SMSROUTE */,
+				127AB2A626627C3500F3CE9B /* SMSROUTETests */,
+				127AB2B126627C3500F3CE9B /* SMSROUTEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		127AB29426627C3100F3CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127AB2A126627C3500F3CE9B /* Preview Assets.xcassets in Resources */,
+				127AB29E26627C3500F3CE9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127AB2A526627C3500F3CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127AB2B026627C3500F3CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		127AB29226627C3100F3CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127AB29C26627C3100F3CE9B /* ContentView.swift in Sources */,
+				127AB2C826627E9900F3CE9B /* pointcard.swift in Sources */,
+				127AB29A26627C3100F3CE9B /* SMSROUTEApp.swift in Sources */,
+				127AB2D02662890200F3CE9B /* hscroll.swift in Sources */,
+				123282B7266342C700CDEB81 /* Dijkstra.swift in Sources */,
+				1259B00F266C8AD6004099FB /* jump.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127AB2A326627C3500F3CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127AB2AC26627C3500F3CE9B /* SMSROUTETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127AB2AE26627C3500F3CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127AB2B726627C3500F3CE9B /* SMSROUTEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		127AB2A926627C3500F3CE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 127AB29526627C3100F3CE9B /* SMSROUTE */;
+			targetProxy = 127AB2A826627C3500F3CE9B /* PBXContainerItemProxy */;
+		};
+		127AB2B426627C3500F3CE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 127AB29526627C3100F3CE9B /* SMSROUTE */;
+			targetProxy = 127AB2B326627C3500F3CE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		127AB2B926627C3500F3CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		127AB2BA26627C3500F3CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		127AB2BC26627C3500F3CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SMSROUTE/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SMSROUTE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Raspberry.SMSROUTE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		127AB2BD26627C3500F3CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SMSROUTE/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SMSROUTE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Raspberry.SMSROUTE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		127AB2BF26627C3500F3CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SMSROUTETests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Raspberry.SMSROUTETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSROUTE.app/SMSROUTE";
+			};
+			name = Debug;
+		};
+		127AB2C026627C3500F3CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SMSROUTETests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Raspberry.SMSROUTETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSROUTE.app/SMSROUTE";
+			};
+			name = Release;
+		};
+		127AB2C226627C3500F3CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SMSROUTEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Raspberry.SMSROUTEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SMSROUTE;
+			};
+			name = Debug;
+		};
+		127AB2C326627C3500F3CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SMSROUTEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Raspberry.SMSROUTEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SMSROUTE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		127AB29126627C3100F3CE9B /* Build configuration list for PBXProject "SMSROUTE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127AB2B926627C3500F3CE9B /* Debug */,
+				127AB2BA26627C3500F3CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		127AB2BB26627C3500F3CE9B /* Build configuration list for PBXNativeTarget "SMSROUTE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127AB2BC26627C3500F3CE9B /* Debug */,
+				127AB2BD26627C3500F3CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		127AB2BE26627C3500F3CE9B /* Build configuration list for PBXNativeTarget "SMSROUTETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127AB2BF26627C3500F3CE9B /* Debug */,
+				127AB2C026627C3500F3CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		127AB2C126627C3500F3CE9B /* Build configuration list for PBXNativeTarget "SMSROUTEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127AB2C226627C3500F3CE9B /* Debug */,
+				127AB2C326627C3500F3CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 127AB28E26627C3100F3CE9B /* Project object */;
+}
