@@ -3,5 +3,5 @@
 
 An app on IOS,to find the shortest route in SZMS
 
-My teammates: LLY,HHY,XYY,ZXY,ZX. 
-Thank them very much for write the "points" and "lines" .
+My teammates: LLY,HYY,XYY,ZXY,ZX. 
+Thank them very much for collecting the data and writing the form.
